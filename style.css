@@ -73,7 +73,7 @@ header .logo{
     max-width: 450px;
   }
   .hero-image img{
-    width: 400px;
+    width: 350px;
     height: 600px;
     border-radius: 10%;
   }
@@ -126,4 +126,10 @@ header .logo{
     height: 300px;
     color: #1F2937;
     border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .info-box img{
+    max-width: 100%;
+    max-height: 100%;
   }
