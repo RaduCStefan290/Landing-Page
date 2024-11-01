@@ -153,18 +153,18 @@ header .logo {
   }
   .hero h1 {
       font-size: 20px; /* Further reduced font size */
-      margin-left: 45px;
+      margin-left: 50px;
   }
   .hero p {
       font-size: 14px; /* Further reduced font size */
       max-width: 85%;
-      margin-left: 45px ;
+      margin-left: 60px ;
   }
   .hero .cta-button {
       font-size: 10px; /* Further reduced button font size */
       padding: 8px 16px; /* Adjust padding for button size */
       margin-top: 10px; /* Adjusted margin */
-      margin-left: 45px;
+      margin-left: 50px;
       margin-bottom:10px;
   }
   .hero-image img {
