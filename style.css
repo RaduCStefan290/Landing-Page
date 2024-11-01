@@ -40,7 +40,7 @@ header .logo {
   flex-direction: column;
   background-color:#1F2937;
   position: absolute;
-  top: 60px; /* Adjust based on header height */
+  top: 60px; 
   width: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
