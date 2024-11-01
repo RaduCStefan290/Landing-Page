@@ -152,19 +152,19 @@ header .logo {
   .hero h1 {
       font-size: 28px;
       margin: 0;
-      margin-left: 45px;
+      margin-left: 65px;
   }
   .hero p {
       font-size: 16px;
       max-width: 90%;
       margin: 10px 0;
-      margin-left: 85px;
+      margin-left: 70px;
   }
   .hero .cta-button {
       font-size: 14px;
       padding: 10px 20px;
       margin-top: 15px;
-      margin-left: 70px;
+      margin-left: 65px;
       margin-bottom: 10px;
   }
   .hero-image img {
