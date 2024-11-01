@@ -38,7 +38,7 @@ header .logo {
 .mobile-nav {
   display: none;
   flex-direction: column;
-  background-color: #fff;
+  background-color:#1F2937;
   position: absolute;
   top: 60px; /* Adjust based on header height */
   width: 100%;
@@ -53,6 +53,7 @@ header .logo {
   background: none;
   border: none;
   margin-top: 5px;
+  background-color: #1F2937;
 }
 
 .hamburger span {
