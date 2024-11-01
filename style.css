@@ -34,6 +34,33 @@ header .logo {
   font-size: 50px;
   font-weight: 900;
 }
+/* Hide mobile menu by default */
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background-color: #fff;
+  position: absolute;
+  top: 60px; /* Adjust based on header height */
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Hamburger button styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-top: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
 
 /* Container */
 .container {
@@ -179,5 +206,32 @@ header .logo {
       width: 90%;
       max-width: 280px;
       margin: 10px auto;
+  }
+}
+@media (max-width: 768px) {
+  .hamburger {
+      display: flex;
+  }
+  .desktop-nav {
+      display: none;
+  }
+}
+
+/* Show mobile menu when active */
+.mobile-nav.active {
+  display: flex;
+}
+/* Default styles for larger screens */
+nav {
+  display: flex;
+}
+
+/* Hide navigation links on smaller screens */
+@media (max-width: 768px) {
+  nav {
+      display: none;
+  }
+  .hamburger {
+      display: flex;
   }
 }
