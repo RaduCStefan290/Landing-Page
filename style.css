@@ -147,6 +147,7 @@ header .logo {
       flex-direction: column;
       align-items: center;
       text-align: center;
+      justify-content: center; /* Center content vertically */
   }
   .hero h1 {
       font-size: 36px;
@@ -154,6 +155,9 @@ header .logo {
   .hero p {
       font-size: 18px;
       max-width: 90%;
+  }
+  .hero .cta-button {
+      margin-top: 20px; /* Adjust margin if needed */
   }
   .hero-image img {
       width: 100%;
