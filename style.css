@@ -61,10 +61,13 @@ header {
 }
 
 .hero-img p{
-  text-align: center;
+  padding: 10px;
 }
 
 .hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: lightgray;
   padding: 80px;
 }
